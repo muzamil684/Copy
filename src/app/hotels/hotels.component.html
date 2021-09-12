@@ -1,0 +1,76 @@
+<div class="container bg-white " *ngIf="router.children.length === 0">
+
+    <form #ref="ngForm" (ngSubmit)="addCityData(ref)">
+        <div class="row row-col-1 row-col-sm-1 row-col-lg-2 row-col-xl-2 row-col-xxl-4 ">
+
+
+            <!-- City selection -->
+            <div id="citycol" class="col  d-flex flex-column">
+
+                <span class="d-block mx-auto">
+            <label id="citylabel" class="pb-2 " for="city">City</label>
+          </span>
+
+                <span>
+            <!-- Input -->
+            <input  id="cl"  list="city-list" type="text" name="City" class="form-control w-25 d-block mx-auto"
+              [(ngModel)]="searchedCity">
+            <datalist  id="city-list" >
+              <option value="Bengaluru">
+             
+                       
+            </datalist>
+          </span>
+            </div>
+
+            <!-- Check In -->
+            <!-- <div id="checkincol" class="col  d-flex flex-column ">
+          <span>
+            <label class="pb-2"  for="city">CheckIn</label>
+          </span>
+          <span>
+            <input type="date" name="From-date" id="" class="form-control" ngModel>
+          </span>
+        </div> -->
+
+
+            <!-- Check Out -->
+            <!-- <div id="checkoutcol" class="col d-flex flex-column ">
+          <span>
+            <label class="pb-2"  for="city">CheckOut</label>
+          </span>
+          <span>
+            <input type="date" name="To-date" id="" class="form-control" ngModel>
+          </span>
+        </div> -->
+
+            <!-- Persons -->
+            <!-- <div id="persons" class="col  d-flex flex-column ">
+          <span>
+            <label class="pb-2"  for="city">Persons</label>
+          </span>
+          <span>
+            <input type="number" name="Guests" id="" class="form-control" ngModel>
+          </span>
+        </div> -->
+
+        </div>
+    </form>
+
+    <!-- Search btn -->
+    <a type="submit" class="btn d-block mx-auto btn-primary"
+     [routerLink]="[searchedCity]"
+      (click)=addCityData(ref)>
+        <b>SEARCH</b>
+
+
+        <i id="search_icon" class="far fa-search"></i>
+    </a>
+
+
+
+
+</div>
+
+
+<router-outlet></router-outlet>

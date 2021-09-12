@@ -1,0 +1,32 @@
+<div class="container bg-white w-100 mt-2 " id="A">
+
+    <!-- Heading -->
+
+    <p id="cityName" class="shadow-drop-2-bottom pb-1 d-block mx-auto text-center">Hotels/Apartments in <b>Bengaluru</b></p>
+
+
+
+    <div class="row row-col-1 row-col-sm-2 row-col-md-2 row-col-lg-3 row-col-xl-4 row-col-xxl-4">
+        <div *ngFor="let hotelObj of myHotels" class="col">
+            <!-- CARD -->
+            <div class="card scale-up-center d-block mx-auto  g-5">
+
+                <img class=" d-block w-100 rounded-top" src="{{hotelObj.hotelImage_1}}">
+                <!-- HOTEL NAME -->
+                <div class="card-body rounded-bottom">
+
+                    <h5 id="cbody" class="card-title">{{hotelObj.hotelName}}</h5>
+                    <h5 id="cbody2" class="float-end">{{hotelObj.price}}</h5>
+                    <!-- VIEW BUTTON -->
+                    <button class="d-block mx-auto pt-1 pb-1 ps-3 pe-3 me-0" (click)="onSelectId(hotelObj.id)" id="viewbtn">
+                            <b class="me-2">View</b>
+                            <i id="viewbtnicon" class="far fa-arrow-circle-right "></i>
+                          </button>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>

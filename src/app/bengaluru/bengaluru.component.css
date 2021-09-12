@@ -1,0 +1,88 @@
+.container[id=A] {
+    border-radius: 1em;
+    padding: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 100%;
+}
+
+p[id=cityName] {
+    border-radius: 10em;
+    font-size: 3.5vw;
+    min-width: 300px;
+}
+
+.card,
+.card-body {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card {
+    margin-bottom: 15em;
+    margin-top: 1em;
+    width: 20em;
+    height: 5em;
+}
+
+img {
+    height: 212px !important;
+}
+
+#cbody,
+#cbody2 {
+    display: inline-block;
+}
+
+#cbody2 {
+    font-family: 'Rubik', sans-serif;
+}
+
+button[id=viewbtn] {
+    border-radius: 10em;
+    padding: 1em;
+    background-color: #22577A;
+    color: white;
+}
+
+i[id=viewbtnicon] {
+    margin-top: 0.1em;
+    font-size: 1.3em;
+    margin-right: -0.4em;
+}
+
+
+/* Card Animation */
+
+.scale-up-center {
+    animation: scale-up-center .4s cubic-bezier(.39, .575, .565, 1.000) both
+}
+
+@keyframes scale-up-center {
+    0% {
+        transform: scale(.5)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+
+/* Card Animation end */
+
+
+/*  */
+
+.shadow-drop-2-bottom {
+    animation: shadow-drop-2-bottom .4s cubic-bezier(.25, .46, .45, .94) both
+}
+
+@keyframes shadow-drop-2-bottom {
+    0% {
+        transform: translateZ(0) translateY(0);
+        box-shadow: 0 0 0 0 transparent
+    }
+    100% {
+        transform: translateZ(50px) translateY(-12px);
+        box-shadow: 0 12px 20px -12px rgba(0, 0, 0, .35)
+    }
+}

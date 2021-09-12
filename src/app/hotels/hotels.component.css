@@ -1,0 +1,51 @@
+input[id=cl] {
+    font-weight: bold;
+    font-size: 1.3em;
+    outline: none;
+    border-radius: 0.2em;
+    border: 1px solid rgb(148, 148, 148);
+}
+
+label[id=citylabel] {
+    font-size: 2em;
+}
+
+.container {
+    border-radius: 1em;
+    padding: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 0% !important;
+    margin-top: 1em;
+}
+
+div[id=citycol],
+[id=checkincol],
+[id=checkoutcol],
+[id=persons] {
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 1px;
+    background-color: rgb(163, 205, 245);
+    min-width: 200px;
+    width: 500px;
+}
+
+
+/* Submit btn */
+
+a {
+    font-size: 1em;
+    width: 8em;
+    height: 3em;
+    margin: 1em;
+    padding-top: 0.6em;
+    border-radius: 10em;
+    background: linear-gradient(20deg, rgba(123, 145, 237, 1) 0%, rgba(86, 107, 199, 1) 47%, rgba(66, 67, 228, 1) 93%);
+}
+
+i[id=search_icon] {
+    font-size: 1.3em;
+    margin-top: 0.1em;
+    margin-left: 0.2em;
+}

@@ -1,0 +1,52 @@
+<div class="container mt-4 " *ngIf="route">
+    <div class="row justify-content-center ">
+        <div class="col-md-10  ">
+            <div class="row text-center text-light p-2 ">
+                <h5 class=" text-capitalize col-md-12 mb-3 text-center ">{{route.leaving_form}} - {{route.going_to}} on {{route.date | date:'longDate'}}</h5>
+            </div>
+
+            <div class="row search-result mb-5 pb-5 text-light ">
+
+                <table class="table ">
+
+                    <thead class="text-light ">
+                        <tr>
+                            <th>Bus Name</th>
+                            <th>Dept. Time</th>
+                            <th>Coach Type</th>
+                            <th>Seats Available</th>
+                            <th>Fare</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-light ">
+                        <tr *ngFor="let b of buses ">
+
+                            <td>
+                                <h6>{{b.name}}</h6>
+                            </td>
+                            <td>{{b.time}}</td>
+                            <td>{{b.coach_type}}</td>
+                            <td>{{b.seat}}</td>
+                            <td>{{b.fare}}</td>
+
+                            <ng-template #template>
+
+                                <div class="modal-body ">
+                                    <button type="button " class="close pull-right " aria-label="Close " (click)="modalRef.hide() ">
+                            <span aria-hidden="true ">&times;</span>
+                          </button>
+                                    <app-select-seat [bus]="b " (closeModal)="closeModal() "></app-select-seat>
+                                </div>
+                            </ng-template>
+                            <td><button (click)="openModal(template) " class="btn btn-danger btn-sm ">View Seats</button></td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

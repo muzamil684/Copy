@@ -1,0 +1,89 @@
+{
+    "hotels": [
+
+        {
+            "id": 1,
+            "hotelName": "The Chancery Pavilion",
+            "hotelImage_1": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/58/08/81/presidential-suite-master.jpg?w=1100&h=-1&s=1",
+            "hotelImage_2": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/f5/39/c3/pool--v17460142.jpg?w=1200&h=-1&s=1",
+            "hotelImage_3": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/58/0a/20/executive-suite-living.jpg?w=1100&h=-1&s=1",
+            "hotelImage_4": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/58/0a/1d/presidential-suite-living.jpg?w=1100&h=-1&s=1",
+            "hotelImage_5": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/09/45/1f/superior-room-bathroom.jpg?w=1100&h=-1&s=1",
+            "price": "₹2,306",
+            "location": "135 Residency Road, Bengaluru 560025 India",
+            "about": "The Chancery Pavilion’s amusing new 10th Floor's delicious restaurant. Alchemy offers a blend of flavors from around the world with a wide array of appetizing dishes and variety of mocktails & signature cocktails.",
+            "ratings": "4.0"
+
+        },
+
+        {
+            "id": 2,
+            "hotelName": "Fountain Tree by TGI",
+            "hotelImage_1": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/f2/17/30/fountain-tree-by-tgi.jpg?w=1200&h=-1&s=1",
+            "hotelImage_2": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/f2/0b/fe/fountain-tree-by-tgi.jpg?w=1200&h=-1&s=1",
+            "hotelImage_3": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/f1/fe/64/fountain-tree-by-tgi.jpg?w=1200&h=-1&s=1",
+            "hotelImage_4": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/f1/fc/1f/fountain-tree-by-tgi.jpg?w=1200&h=-1&s=1",
+            "hotelImage_5": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/ee/e2/20/fountain-tree-by-tgi.jpg?w=1200&h=-1&s=1",
+            "price": "₹3,020",
+            "location": "Sri Krishna Arcade, 9th Cross Rd, Sarakki Industrial Layout, 3rd Phase, JP Nagar, Bengaluru 560078 India",
+            "about": "Fountain Tree by TGI is one of the best located business boutique hotels in South Bengaluru. Fountain Tree by TGI, Bengaluru promises to unveil its new avatar in a classic style that helps you gain more out of your business trip. Our hotel exudes a perfect blend of sophistication and luxury that makes it an ideal choice for business as well as leisure travellers. The hotel offers mesmerizing rooms and suites which are furnished with amenities like tea & coffee maker, mini bar, in-room safe, free internet access, complimentary breakfast and laundry service. Fountain Tree by TGI, Bengaluru has one fine dine restaurant called Spice Code, one where you can have a wonderful time with your friends and family, a roof top bar with the aerial view of the surroundings. The hotel also houses a banquet hall for corporate meetings or a social get together with the capacity of around 50pax.",
+            "ratings": "4.5"
+        },
+        {
+            "id": 3,
+            "hotelName": "Royal Orchid Resort",
+            "hotelImage_1": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/39/6f/06/pool.jpg?w=1200&h=-1&s=1",
+            "hotelImage_2": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/39/6f/05/guest-room.jpg?w=1200&h=-1&s=1",
+            "hotelImage_3": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/b5/7c/2b/royal-orchid-resort-convention.jpg?w=800&h=-1&s=1",
+            "hotelImage_4": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/b5/7c/4d/royal-orchid-resort-convention.jpg?w=800&h=-1&s=1",
+            "hotelImage_5": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/39/6f/02/guest-room.jpg?w=1100&h=-1&s=1",
+            "price": "₹2,946",
+            "location": "Allasandra Bellary Rd Yelahanka, near Jakkur Flying Club, Bengaluru 560065 India",
+            "about": "Royal Orchid Resort, Bangalore is spread over 8 acres of greens. It houses 42 Deluxe rooms, 8 Superior rooms and 4 Exclusive Cottages with all modern comforts and amenities.It is very popular for its Indian restaurant – the 9th Mile Dhaba. It is also a much preferred venue for business conferences, weddings, parties and social get-togethers.Royal Orchid resort offers a Convention Center of 5500 sq ft which can accommodate upto 1200 guests and the Green Lawn Space can cater upto a crowd of 2500 guests.",
+            "ratings": "4.0"
+        },
+        {
+            "id": 4,
+            "hotelName": "ITC Gardenia",
+            "hotelImage_1": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/ab/56/ce/filename-01-exterior.jpg?w=1200&h=-1&s=1",
+            "hotelImage_2": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/f2/2e/97/itc-gardenia-bengaluru.jpg?w=1200&h=-1&s=1",
+            "hotelImage_3": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/db/b2/3c/banquets-entrance-lobby.jpg?w=1200&h=-1&s=1",
+            "hotelImage_4": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/f2/43/52/itc-one-room.jpg?w=1200&h=-1&s=1",
+            "hotelImage_5": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/f2/2b/4e/ottimo-specialty-restaurant.jpg?w=1200&h=-1&s=1",
+            "price": "₹15,055",
+            "location": "No 1 Residency Road, Bengaluru 560025 India",
+            "about": "ITC Gardenia is inspired by the beautiful garden city of Bengaluru. The hotel is conceived as a building set in a garden, where interiors and exteriors amalgamate into each other with the realm of architectural aesthetics and landscaping sensibilities.  The whole facade is in clay bricks which go hand-in-hand with the garden environment, designed and magnificently appointed 292 rooms and suites and the Presidential Suite with its indoor pool, blend seamlessly with the garden setting. Each floor at ITC Gardenia is styled after an element of nature and the 292 well appointed rooms and suites offer notable features such as iPad interface for controlling various in- room features, smart TV with access to all primary OTT platforms and sanitization protocols as per our award winning WeAssure Program.",
+            "ratings": "4.5"
+        },
+        {
+            "id": 5,
+            "hotelName": "Angsana Oasis Resort",
+            "hotelImage_1": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/4b/ab/0b/angsana-oasis-spa-and.jpg?w=1200&h=-1&s=1",
+            "hotelImage_2": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/4b/ac/6c/angsana-oasis-spa-and.jpg?w=1200&h=-1&s=1",
+            "hotelImage_3": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/4b/ac/89/angsana-oasis-spa-and.jpg?w=1200&h=-1&s=1",
+            "hotelImage_4": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/4b/ac/66/angsana-oasis-spa-and.jpg?w=1200&h=-1&s=1",
+            "hotelImage_5": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/6c/fe/35/photo1jpg.jpg?w=1200&h=-1&s=1",
+            "price": "₹8,634",
+            "location": "Main Doddaballapur Road Rajankunte, Northwest Country, Bengaluru 560064 India",
+            "about": "The Angsana Oasis Spa & Resort managed by Banyan Tree Hotel & Resorts Singapore, strikes a balance of rustic beauty and modern conveniences. All 79 Rooms and Suites are provided with the most modern amenities. Dining options include “Sundance Bistro” – All Day Dining Restaurant, “Tangerine” – the contemporary multi cuisine restaurant, offering a select variety of Indian & continental cuisine, the Aquamarine Deck – exclusive venue for private functions by the poolside and Mirage the Lounge bar.",
+            "ratings": "4.0"
+        },
+        {
+            "id": 6,
+            "hotelName": "ITC Windsor",
+            "hotelImage_1": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/8a/e3/f2/itc-windsor-bengaluru.jpg?w=1200&h=-1&s=1",
+            "hotelImage_2": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/34/2c/67/itc-windsor-bengaluru.jpg?w=1000&h=-1&s=1",
+            "hotelImage_3": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/24/3f/28/itc-windsor-bengaluru.jpg?w=1000&h=-1&s=1",
+            "hotelImage_4": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/24/3f/3c/itc-windsor-bengaluru.jpg?w=1000&h=-1&s=1",
+            "hotelImage_5": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/24/3f/3f/itc-windsor-bengaluru.jpg?w=1000&h=-1&s=1",
+            "price": "₹7,507",
+            "location": "25, Windsor Square Golf Course Road, Bengaluru 560052 India",
+            "about": "Everyone needs a place to lay their weary head. For travelers visiting Bengaluru, ITC Windsor, Bengaluru is an excellent choice for rest and rejuvenation. Well-known for its luxury environment and proximity to great restaurants and attractions, ITC Windsor, Bengaluru makes it easy to enjoy the best of Bengaluru. Guest rooms offer an LED screen, air conditioning, and a minibar (available upon request), and ITC Windsor makes getting online easy as free internet access is available. You can also take advantage of some of the amenities offered by the hotel, including a 24-hour front desk, room service, salon and wellness services (prior appointment required) and a concierge. In addition, guests can enjoy complimentary breakfast and avail free parking during their visit. With a platinum grade commitment to our guests and the planet, ITC Windsor is certified with a LEED® (Leadership in Energy and Environmental Design) Platinum rating for globally recognized planet positive endeavors. It is also the first hotel in the world to be certified LEED Zero Carbon. While staying at ITC Windsor Bengaluru, visitors can check out some of Bengaluru's top attractions including the Vidhana Soudha, Attara Kacheri (1.1 mi) and M Chinnaswamy Stadium (1.5 mi), etc. Travelers looking for pubs can head to Hard Rock Cafe, Skyye Lounge, or 13th Floor Lounge Bar. Bengaluru is also known for some great monuments and statues, including Seshadari Iyer Memorial, Statue of King Edward VII, and Lady Jehangir Kothari Memorial Hall, which are not too far from ITC Windsor Bangalore. Whether you’re traveling for business, leisure or both, ITC Windsor Bengaluru is sure to make your visit to Bengaluru one worth remembering.",
+            "ratings": "5.0"
+        }
+
+
+
+    ]
+
+}

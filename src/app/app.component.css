@@ -1,0 +1,13 @@
+.button1 {
+    padding: 0.5em;
+    padding-left:  0.7em;
+    padding-right: 0.7em;
+
+    color: white;
+    font-size: large;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: indianred;
+    border-radius: 10em;
+}
+

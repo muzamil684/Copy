@@ -11,3 +11,6 @@ export interface m_hotels{
     about:any;
     ratings:any;
 }
+
+
+

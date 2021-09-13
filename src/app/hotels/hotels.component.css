@@ -2,13 +2,13 @@ input[id=cl] {
     font-weight: bold;
     font-size: 1.3em;
     outline: none;
-    border-radius: 0.2em;
-    border: 1px solid rgb(148, 148, 148);
+    /* border-radius: 0.2em;
+    border: 1px solid rgb(148, 148, 148); */
 }
 
-label[id=citylabel] {
+/* label[id=citylabel] {
     font-size: 2em;
-}
+} */
 
 .container {
     border-radius: 1em;

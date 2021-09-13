@@ -1,8 +1,15 @@
 footer {
-    background-image: url('../../assets/map.svg');
-    background-position: center;
-    background-size: 150px;
-    background-repeat: no-repeat;
-    color: rgb(2, 2, 54);
     font-family: cursive;
+    color: rgb(2, 2, 54);
+   /* height: fit-content; */
+}
+div[id=fcenter]{
+    background-image: url('../../assets/map.svg');
+    background-size: 200px;
+    min-width: 140px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div[id=fend],[id=fstart]{
+    text-align: center;
 }

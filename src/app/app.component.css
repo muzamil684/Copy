@@ -1,5 +1,42 @@
+/* Animation code for nav toggle icon */
+  .line {
+    fill: none;
+    stroke: black;
+    stroke-width: 6;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+      stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 6;
+  }
+  .line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+  }
+  .opened .line1 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+  .opened .line2 {
+    stroke-dasharray: 1 60;
+    stroke-dashoffset: -30;
+    stroke-width: 6;
+  }
+  .opened .line3 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+  }
+
+/* *********** */
+
 nav.navbar{
-    
     background-color: #edf2f4 ;
 }
 
@@ -8,12 +45,9 @@ nav.navbar{
     padding-left:  0.2em;
     padding-right: 0.2em;
     color: black;
-
-    /* color: white; */
     font-size: large;
     font-style: oblique;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* background-color: indianred; */
 }
 
 li{
@@ -21,9 +55,14 @@ li{
     border-radius: 0.5em;
     margin: 0.1em;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    /* box-shadow: rgba(19, 19, 71, 0.25) 0px 2px 5px -1px, rgba(59, 9, 197, 0.3) 0px 1px 3px -1px; */
 }
-i[id=hotelsicon],[id=busicon],[id=homeicon],[id=profileicon],[id=loginicon],[id=logouticon],[id=signupicon]{
+i[id=hotelsicon],
+ [id=busicon],
+ [id=homeicon],
+ [id=profileicon],
+ [id=loginicon],
+ [id=logouticon],
+ [id=signupicon]{
     font-size: 2.5em;
     margin-right: 0% !important;
 }

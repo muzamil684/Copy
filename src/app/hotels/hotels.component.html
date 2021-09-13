@@ -6,53 +6,50 @@
 
             <!-- City selection -->
             <div id="citycol" class="col  d-flex flex-column">
-
-                <span class="d-block mx-auto">
-            <label id="citylabel" class="pb-2 " for="city">City</label>
-          </span>
+                <span>
+                  <label id="citylabel" class="pb-2 " for="city">City</label>
+                </span>
 
                 <span>
-            <!-- Input -->
-            <input  id="cl"  list="city-list" type="text" name="City" class="form-control w-25 d-block mx-auto"
-              [(ngModel)]="searchedCity">
-            <datalist  id="city-list" >
-              <option value="Bengaluru">
-             
-                       
-            </datalist>
-          </span>
+                 <!-- Input -->
+                 <input  id="cl"  list="city-list" type="text" name="City" class="form-control   "
+                  [(ngModel)]="searchedCity">
+                  <datalist  id="city-list" >
+                    <option value="Bengaluru">
+                  </datalist>
+                 </span>
             </div>
 
             <!-- Check In -->
-            <!-- <div id="checkincol" class="col  d-flex flex-column ">
+            <div id="checkincol" class="col  d-flex flex-column ">
           <span>
             <label class="pb-2"  for="city">CheckIn</label>
           </span>
           <span>
             <input type="date" name="From-date" id="" class="form-control" ngModel>
           </span>
-        </div> -->
+        </div>
 
 
             <!-- Check Out -->
-            <!-- <div id="checkoutcol" class="col d-flex flex-column ">
+            <div id="checkoutcol" class="col d-flex flex-column ">
           <span>
             <label class="pb-2"  for="city">CheckOut</label>
           </span>
           <span>
             <input type="date" name="To-date" id="" class="form-control" ngModel>
           </span>
-        </div> -->
+        </div>
 
             <!-- Persons -->
-            <!-- <div id="persons" class="col  d-flex flex-column ">
+            <div id="persons" class="col  d-flex flex-column ">
           <span>
             <label class="pb-2"  for="city">Persons</label>
           </span>
           <span>
             <input type="number" name="Guests" id="" class="form-control" ngModel>
           </span>
-        </div> -->
+        </div>
 
         </div>
     </form>

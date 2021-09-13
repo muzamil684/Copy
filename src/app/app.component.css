@@ -1,13 +1,31 @@
-.button1 {
-    padding: 0.5em;
-    padding-left:  0.7em;
-    padding-right: 0.7em;
+nav.navbar{
+    
+    background-color: #edf2f4 ;
+}
 
-    color: white;
+.button1 {
+    padding: 0.1em;
+    padding-left:  0.2em;
+    padding-right: 0.2em;
+    color: black;
+
+    /* color: white; */
     font-size: large;
     font-style: oblique;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: indianred;
-    border-radius: 10em;
+    /* background-color: indianred; */
 }
+
+li{
+    background-color: white;
+    border-radius: 0.5em;
+    margin: 0.1em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgba(19, 19, 71, 0.25) 0px 2px 5px -1px, rgba(59, 9, 197, 0.3) 0px 1px 3px -1px; */
+}
+i[id=hotelsicon],[id=busicon],[id=homeicon],[id=profileicon],[id=loginicon],[id=logouticon],[id=signupicon]{
+    font-size: 2.5em;
+    margin-right: 0% !important;
+}
+
 
